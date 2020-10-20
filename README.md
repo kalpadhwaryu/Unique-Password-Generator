@@ -22,3 +22,5 @@ If the user enters “3” as input then pw variable will be made by joining the
 If the user enters “4” as input then pw variable will be made by joining the randomly chosen concatenation from string.ascii_letters, string.digits & string.punctuation using random.choice() everytime till the password length (inputted above) is reached in range of for loop and then the while loop breaks.
 If the user enters a number(integer) which is not in the list then it will give output as “Wrong Selection. Please select a number from the list”.
 And if the user enters anything which is not integer, then it is considered as Value-error and gives the output “Please Enter a Number”.
+When everything is inputted correctly and if the program runs successfully without any error then an output with the Random Password is generated as:
+             “Here is a password for you: (RandomlyGeneratedPassword)” 
