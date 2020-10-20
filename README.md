@@ -13,3 +13,5 @@ First the user is asked the type of password they want. For every choice there i
 For joining strings in Python join() method is used which is available in string library. It can join any two strings.
 Python random module‘s random.choice() function returns a random element from the non-empty sequence. We can use the random.choice() function for selecting a random string.
 In Python3, ascii_letters is a pre-initialized string used as string constant.ascii_letters is basically concatenation of ascii_lowercase and ascii_uppercase string constants. Also, the value generated is not locale-dependent, hence, doesn’t change.
+To print both uppercase and lowercase letters, string.ascii_letters is used.
+Similarly for printing digits, string.digits is used and for printing special characters, string.punctuation is used. This all is available in the string library.
