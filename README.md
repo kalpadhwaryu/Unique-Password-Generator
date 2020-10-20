@@ -10,3 +10,6 @@ Now the second part of code also contains a while loop and try, except statement
 Inside the while loop is the try statements.
 The try statement consists of an input variable ‘yourchoice’ and if ..elif..else conditions.
 First the user is asked the type of password they want. For every choice there is a number assigned. For text only password - 1, for digits only password - 2, for alphanumeric password – 3 and password for alphanumeric with special characters - 4.
+For joining strings in Python join() method is used which is available in string library. It can join any two strings.
+Python random module‘s random.choice() function returns a random element from the non-empty sequence. We can use the random.choice() function for selecting a random string.
+In Python3, ascii_letters is a pre-initialized string used as string constant.ascii_letters is basically concatenation of ascii_lowercase and ascii_uppercase string constants. Also, the value generated is not locale-dependent, hence, doesn’t change.
