@@ -15,3 +15,6 @@ Python random module‘s random.choice() function returns a random element from 
 In Python3, ascii_letters is a pre-initialized string used as string constant.ascii_letters is basically concatenation of ascii_lowercase and ascii_uppercase string constants. Also, the value generated is not locale-dependent, hence, doesn’t change.
 To print both uppercase and lowercase letters, string.ascii_letters is used.
 Similarly for printing digits, string.digits is used and for printing special characters, string.punctuation is used. This all is available in the string library.
+Now according to the conditions, if..elif…else statements are executed.
+If the user enters “1” as input then pw variable will be made by joining the randomly chosen letter from string.ascii_letters using random.choice() every time till the password length (inputted above) is reached in range of for loop and then the while loop breaks.
+If the user enters “2” as input then pw variable will be made by joining the randomly chosen digit from string.digits using random.choice() everytime till the password length (inputted above) is reached in range of for loop and then the while loop breaks.
